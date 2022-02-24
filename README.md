@@ -9,7 +9,7 @@ This site is a brief look at previous projects that I have built.
 * HTML
 * CSS
 
-### Reach Out
-You can reach out to me via email: ianaack@gmail.com
-You can follow me on Twitter: https://twitter.com/ianaack
-You can view my previous work experience on LinkedIn: https://linkedin.com/ianaack
+## Reach Out
+<li>You can reach out to me via email: ianaack@gmail.com</li>
+<li>You can follow me on Twitter: https://twitter.com/ianaack</li>
+<li>You can view my previous work experience on LinkedIn: https://linkedin.com/ianaack</li>
