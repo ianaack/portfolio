@@ -31,7 +31,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 48px;
-  color: var(--primary-color);
+  text-decoration: none;
 }
 
 header a {
@@ -96,19 +96,40 @@ section {
 
 .hero-title {
   position: relative;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 56px;
   z-index: 9999;
 }
 
 /*SECTION TITLE STYLING*/
 .section-title {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
   font-size: 48px;
   color: var(--secondary-color);
   padding-bottom: 20px;
   padding-right: 20px;
-  text-align: left;
-  margin: 0 100% 35px 0;
+}
+
+/*ABOUT ME STYLING*/
+.content {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+}
+.intro {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--primary-color);
+  font-size: 20px;
+  border-left: 5px solid var(--secondary-color);
+  padding: 0px 50px;
 }
 
 /*UTILITIES*/
