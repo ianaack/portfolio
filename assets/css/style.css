@@ -14,29 +14,32 @@ body {
 
 :root {
   --primary-color: #373e40;
-  --secondary-color: #305252;
-  --tertiary-color: #77878B;
+  --secondary-color: #42b3b3;
+  --tertiary-color: #c2c9ca;
 }
 
 /*HEADER STYLING*/
 header {
-  padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  padding: 20px 50px 20px 0;
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header h1 {
+header h1 a {
   font-weight: bold;
-  margin: 0;
-  font-size: 48px;
+  font-size: 72px;
   text-decoration: none;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 5px 10px 5px 100px;
+  margin: 0px;
 }
 
 header a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 header nav {
@@ -54,12 +57,12 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 36px;
+  font-size: 26px;
   border-bottom: 3px solid var(--secondary-color);
 }
 
 header nav ul li a:hover {
-  border-bottom: 17px solid var(--secondary-color);
+  border-bottom: 25px solid var(--secondary-color);
   transition: 0.5s;
 }
 
@@ -97,7 +100,7 @@ section {
 .hero-title {
   position: relative;
   color: var(--primary-color);
-  font-size: 56px;
+  font-size: 48px;
   z-index: 9999;
 }
 
@@ -106,13 +109,13 @@ section {
   box-sizing: border-box;
   display: flex;
   align-items: flex-end;
-  font-size: 48px;
+  text-align: right;
+  font-size: 80px;
   color: var(--secondary-color);
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding: 20px;
+  border-right: 5px solid var(--secondary-color);
 }
 
-/*ABOUT ME STYLING*/
 .content {
   display: flex;
   padding: 30px;
@@ -121,18 +124,37 @@ section {
   width: 90%;
   margin: auto;
 }
+
+/*ABOUT ME STYLING*/
 .intro {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: var(--primary-color);
-  font-size: 20px;
-  border-left: 5px solid var(--secondary-color);
+  font-size: 15px;
   padding: 0px 50px;
+}
+
+/*PROJECTS STYLING*/
+.projects {
+  display: flex;
+  padding: 30px;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0px 40px 0 ;
+  box-sizing: border-box;
+}
+
+.mainProject {
+  
 }
 
 /*UTILITIES*/
 .flex-row {
+  display: flex;
+}
+
+.flex-column {
   display: flex;
 }
