@@ -1,111 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/images/ian.png">
-    <title>Ian Ackerman - Portfolio</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/images/ian.png">
+  <title>Portfolio | Ian Ackerman</title>
+</head>
 
-  <body>
-    <!--navigation panel-->
-    <header>
-      <h1><a href="#">Ian Ackerman</h1></a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-          <li>
-            <a href="./assets/images/Ian Ackerman Resume_2021.pdf">Resume</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!--end navigation panel-->
-    
-    <!--hero-->
-    <section class="hero">
-      <h2>Official Portfolio</h2>
-    </section>
-    <!--end hero-->
-    
-    <!--"about me" section-->
-    <section id="about" class="about">
-      <h2 class="section-title">About Me</h2>
-      <p>
-        I am a Toronto-based student of the University of Toronto Coding Bootcamp. <br/> I am a new developer that is looking to enhance my skills and knowledge of Full Stack Development. <br/> I enjoy the challenge of solving customer problems and building their product launch from the ground up. <br/> My career background is in film and television production. <br/> In my spare time I like to hang out with my family, and play video games with my friends. <br/> I love to research new technologies and how they can be used to add new features and optimize code.
-      </p>
-    </section>
-    <!--end "about me" section-->
+<body>
+  <div id="container">
+    <nav>
+      <h1>Ian Ackerman</h1>
 
-    <!--"projects" section-->
-    <section id="projects" class="projects">
-        <h2 class="section-title">Projects</h2>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact Me</a></li>
+        <li><a href="./assets/images/Ian Ackerman Resume_2021.pdf" class="nav-link" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
 
-        <div class="container">
-          <div class="main-project">
-            <a href="https://ianaack.github.io/run-buddy" target="_blank">
-            <div class="run-buddy-title">
-              <h3>Run Buddy</h3>
-              <h4>HTML/CSS</h4>
-            </div>
-            </a>
-          </div>
-
-          <div class="secondary-projects">
-            <a href="https://ianaack.github.io/challenge-1" target="_blank">
-            <div class="project-title">
-              <h3>Horiseon</h3>
-              <h4>HTML/CSS</h4>
-            </div>
-            </a>
-          </div>
-
-          <div class="secondary-projects">Surf Report
-            <div>project-title</div>
-          </div>
-          <div>LED Wall
-            <div>project-title</div>
-          </div>
-          <div>Robot Gladiators
-            <div>project-title</div>
-          </div>
-        </div>
-
-    </section>
-    <!--end "projects" section-->
-
-    <!--"contact me" section-->
-    <section id="contact-me" class="contact">
-        <h2 class="section-title">Contact Me</h2>
-
-      <div class="contact-info">
-        <ul>
-          <li>
-            <a href="tel:416.709.9206">416 709 9206</a>
-          </li>
-          <li>
-            <a href="mailto:ianaack@gmail.com">ianaack@gmail.com</a>
-          </li>
-          <li>
-            <a href="https://github.com/ianaack">Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/ianaack/">LinkedIn</a>
-          </li>
-        </ul>
+    <section class="hero" id="about">
+      <img
+        src="./assets/images/Ian-Headshot.jpg"
+        alt="headshot"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I am a Toronto-based student of the University of Toronto Coding Bootcamp. I am a new developer that is looking to enhance my skills and knowledge of Full Stack Development. I enjoy the challenge of solving customer problems and building their product launch from the ground up. My career background is in film and television production. In my spare time I like to hang out with my family, and play video games with my friends.
+        </p>
       </div>
     </section>
-    <!--end "contact me" section-->
 
-  </body>
+    <section class="projects" id="portfolio">
+      <h2 class="projects-title">My Work</h2>
+      <div class="projects-container-main">
+        <div class="project-container-main project-card-main">
+          <a href="https://ianaack.github.io/run-buddy" target="_blank" class="project-link">
+            <img
+              src="./assets/images/hero-bg.jpg"
+              alt="Run Buddy Website"
+              loading="lazy"
+              class="project-pic"
+            />
+          <h3 class="project-title">Run Buddy</h3>
+          <p class="project-details">HTML/CSS</p>
+          </a>
+        </div>
+      </div>
+      <div class="projects-container-row1">
+        <div class="project-container project-card">
+          <a href="https://ianaack.github.io/challenge-1" target="_blank" class="project-link">
+            <img
+              src="./assets/images/digital-marketing-meeting.jpg"
+              alt="Horiseon Website"
+              loading="lazy"
+              class="project-pic"
+            />
+          <h3 class="project-title">Horiseon</h3>
+          <p class="project-details">HTML/CSS</p>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="#" target="_blank" class="project-link">
+            <img
+              src="./assets/images/under-construction.jpg"
+              alt="Website Under Construction"
+              loading="lazy"
+              class="project-pic"
+            />
+          <h3 class="project-title">Robot Gladiators</h3>
+          <p class="project-details">JavaScript</p>
+          </a>
+        </div>
+      </div>
+      <div class="projects-container-row2">
+        <div class="project-container project-card">
+          <a href="#" target="_blank" class="project-link">
+            <img
+              src="./assets/images/under-construction.jpg"
+              alt="Website Under Construction"
+              loading="lazy"
+              class="project-pic"
+            />
+          <h3 class="project-title">Surf Report</h3>
+          <p class="project-details">MERN Stack</p>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="#" target="_blank" class="project-link">  
+            <img
+              src="./assets/images/under-construction.jpg"
+              alt="Website Under Construction"
+              loading="lazy"
+              class="project-pic"
+            />
+          <h3 class="project-title">LED Wall</h3>
+          <p class="project-details">Node/IoT</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch!</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xbjwyyrn" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://github.com/ianaack" target="_blank">
+        <img
+          src="./assets/images/GitHub-Mark-32px.png"
+          alt="Github"
+          loading="lazy"
+          class="social-icon"
+        />
+      </a>
+      <a href="https://linkedin.com/ianaack" target="_blank">
+        <img
+          src="./assets/images/LI-In-Bug.png"
+          alt="LinkedIn"
+          loading="lazy"
+          class="social-icon"
+        />
+      </a>
+      <a href="https://twitter.com/ianaack" target="_blank">
+        <img
+          src="./assets/images/2021 Twitter logo - blue.png"
+          alt="Twitter"
+          loading="lazy"
+          class="social-icon"
+        />
+      </a>
+      <a href="https://instagram.com/ianaack" target="_blank">
+        <img
+          src="./assets/images/glyph-logo_May2016.png"
+          alt="Instagram"
+          loading="lazy"
+          class="social-icon"
+        />
+      </a>
+    </div>
+
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">Built entirely by
+        <a href="https://github.com/ianaack" target="_blank">
+          Ian Ackerman
+        </a>
+      </p>
+    </footer>
+</body>
 </html>
