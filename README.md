@@ -8,6 +8,9 @@ This site is a brief look at previous projects that I have built and will be upd
 Be sure to keep an eye on this space to see just how far I can go!
 
 ## Website Snapshot
+
+Website available here: https://ianaack.github.io/portfolio/
+
 <img width="533" alt="website-snapshot" src="https://user-images.githubusercontent.com/47282257/156402791-2e3fa406-4994-4472-ade1-4f18e0a3e008.png">
 
 ## Technologies Used
