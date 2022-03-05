@@ -1,3 +1,4 @@
+/*Variables*/
 :root {
   --primary-color: #373e40;
   --secondary-color: #42b3b3;
@@ -7,6 +8,7 @@
   --transition: 0.25s;
 }
 
+/*Overall Styling*/
 html {
   scroll-behavior: smooth;
 }
