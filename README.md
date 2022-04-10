@@ -23,7 +23,7 @@ Website available here: https://ianaack.github.io/portfolio/
 <li>You can view my previous work experience on LinkedIn: https://linkedin.com/ianaack</li>
 
 ## Contribution
-Ian Ackerman - https:github.com/ianaack
+Ian Ackerman - https://github.com/ianaack
 
 ## License
 
